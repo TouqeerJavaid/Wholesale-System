@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "656336081949",
+    "firebase_url": "https://inventaryandorderbooking-146b0.firebaseio.com",
+    "project_id": "inventaryandorderbooking-146b0",
+    "storage_bucket": "inventaryandorderbooking-146b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656336081949:android:4ed680ebb1a6d4d0",
+        "android_client_info": {
+          "package_name": "com.example.inventaryandorderbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656336081949-0pu9ifvepgdpm98bhrrnqqcmbhtqn689.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inventaryandorderbooking",
+            "certificate_hash": "cb6e0806519608c63168a646ecc7553b442dd680"
+          }
+        },
+        {
+          "client_id": "656336081949-0efe9s1t32saocnpaig7nqm60k09ugcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2x3x6JQDbAADTOQvMijlYEX8HH9OCLQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656336081949-0efe9s1t32saocnpaig7nqm60k09ugcv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".add_shopkeepers">
+
+   <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_shopkeepers_float_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end|bottom"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="38dp"
+        android:src="@drawable/ic_add_black_24dp" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbaraddshopkeepers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@color/fbutton_color_nephritis"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbaraddshopkeepers">
+
+        <!--
+
+            put your activity content here
+            You can change the layout to anything you want
+            right now it is a linear layout
+
+        -->
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/sk_list"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@+id/toolbaraddshopkeepers"/>
+
+
+</RelativeLayout>

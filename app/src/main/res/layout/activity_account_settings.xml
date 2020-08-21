@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account_settings"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/account_settings_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fbutton_color_nephritis"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/name_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:layout_marginTop="30dp"
+            android:inputType="textPersonName"
+            android:textSize="30sp"
+            android:text="Name"
+            android:textStyle="italic|bold"/>
+        <TextView
+            android:id="@+id/display_name_setting"
+            android:layout_width="fill_parent"
+            android:text="abc"
+            android:textSize="30sp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/email_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:layout_marginTop="30dp"
+            android:inputType="textEmailAddress"
+            android:textSize="30sp"
+            android:text="Email"
+            android:textStyle="bold|italic"/>
+        <TextView
+            android:id="@+id/display_email_setting"
+            android:layout_width="fill_parent"
+            android:text="abc"
+            android:textSize="30sp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/change_password_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="#50CC73"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Change Password"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/listviewwholesalers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

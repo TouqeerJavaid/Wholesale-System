@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.inventaryandorderbooking">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Low_inventory"
+            android:parentActivityName=".Wholesaler_home" />
+        <activity android:name=".Screenshot" />
+        <activity android:name=".SalesRecordActivity" />
+        <activity android:name=".ShopkeeperOrderHistory" />
+        <activity android:name=".GenerateInvoice" />
+        <activity android:name=".OrdersActivity" />
+        <activity android:name=".ProductCartActivity" />
+        <activity android:name=".ShopkeeperProductDetails" />
+        <activity android:name=".Add_to_cart" />
+        <activity
+            android:name=".Shopkeeper_home"
+            android:label="@string/title_activity_shopkeeper_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".add_products" />
+        <activity
+            android:name=".Products_biodata"
+            android:label="@string/title_activity_products_biodata"
+            android:parentActivityName=".add_products"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Account_settings"
+            android:label="@string/title_activity_account_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Shopkeepers_biodata"
+            android:label="@string/title_activity_shopkeepers_biodata"
+            android:parentActivityName=".add_shopkeepers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".add_shopkeepers"
+            android:label="@string/title_activity_add_shopkeepers"
+            android:parentActivityName=".Wholesaler_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wholesaler_home"
+            android:label="@string/title_activity_wholesaler_home"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

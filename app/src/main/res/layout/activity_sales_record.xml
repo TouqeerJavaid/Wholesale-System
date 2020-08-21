@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SalesRecordActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="Sales Record"
+        app:titleTextColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/startDate"
+            android:clickable="true"
+            android:editable="false"
+            android:hint="Select Start :  02/07/2019"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date" />
+
+        <EditText
+            android:clickable="true"
+            android:editable="false"
+            android:hint="Select End Date : 02/08/2019"
+            android:layout_margin="10dp"
+            android:id="@+id/endDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date" />
+
+
+        <Button
+            android:id="@+id/showRecordBtn"
+            android:layout_gravity="center"
+            android:text="show Record"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:text="Total Sales : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/totalSales"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_weight="1"
+                android:text="Rs : 0 "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:text="Total Orders : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/totalOrders"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_weight="1"
+                android:text="0 "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

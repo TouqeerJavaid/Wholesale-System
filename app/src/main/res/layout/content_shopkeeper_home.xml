@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Shopkeeper_home"
+    tools:showIn="@layout/app_bar_shopkeeper_home">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/products_show_shopkeepers"
+        android:layout_marginTop="58dp"
+        android:layout_width="match_parent"
+        android:onClick="add_to_move"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+
+    <android.support.v7.widget.CardView
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_marginRight="8dp"
+        android:id="@+id/card_view_cart"
+        app:cardCornerRadius="8dp"
+
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <com.nex3z.notificationbadge.NotificationBadge
+                android:id="@+id/notificationbadge"
+                android:layout_toRightOf="@id/cardIcon"
+                app:nbMaxTextLength="2"
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"></com.nex3z.notificationbadge.NotificationBadge>
+
+            <ImageView
+                android:id="@+id/cardIcon"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_shopping_cart_white_24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

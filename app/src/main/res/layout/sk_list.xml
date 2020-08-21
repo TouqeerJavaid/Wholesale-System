@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+
+
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/city"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/sk_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+
+
+    <TextView
+        android:id="@+id/sk_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/sk_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/sk_city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/sk_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+    <TextView
+    android:id="@+id/sk_email"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/email"
+    android:textColor="@android:color/black"
+    android:textSize="20sp"
+    android:textStyle="italic"/>
+</LinearLayout>
+</LinearLayout>
